@@ -1,0 +1,21 @@
+#travel_img_flex{
+    display: flex;
+}
+#travel_img_flex img{
+    margin: 30px;
+    margin-top: 300px;
+}
+#heading_travel_tip h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    font-family: Agbalumo;
+    margin: 20px;
+}
+.travel_tips_flex{
+    display: flex;
+    margin: 30px;
+}
+#heading_travel_tip p,h6{
+    font-family: Agbalumo;
+    margin: 2px;
+}

@@ -1,0 +1,29 @@
+#heading_luxurytrain h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    padding-left: 430px;
+    margin: 20px;
+}
+#heading_luxurytrain img{
+height: 498px;
+}
+.train_content {
+    height: 100vh;
+  }
+  
+  .train_text-content {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 20px;
+    font-size: 50px;
+  }
+  #heading_airlines h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    padding-left: 590px;
+    margin: 20px;
+  }

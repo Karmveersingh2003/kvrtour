@@ -1,0 +1,27 @@
+#flex_mainheading_ayurveda_tour{
+    display: flex;
+    margin: 20px;
+    }
+    #mainheading_ayurveda_tour p{
+        font-family: Agbalumo;
+        font-size: large;
+        margin: 20px;
+    }
+    #mainheading_ayurveda_tour h1{
+        font-family: Playfair Display SC;
+        font-weight: bolder;
+        margin: 20px;
+    }
+    #heading_popular_ayurveda_destination h1{
+        font-family: Playfair Display SC;
+        font-weight: bolder;
+        margin: 20px;
+        margin-left:200px;
+    }
+    #heading_best_ayurveda_sightseeing h1{
+        font-family: Playfair Display SC;
+        font-weight: bolder;
+        margin: 20px;
+        margin-left:200px;
+    }
+    

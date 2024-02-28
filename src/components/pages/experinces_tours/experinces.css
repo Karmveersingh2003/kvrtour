@@ -1,0 +1,44 @@
+#shadowExploreIndia_heading{
+  box-shadow: 0px 0px 10px -7px;
+  }
+  #exploreindia_heading {
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+  }
+  
+  #exploreindia_heading h2{
+  padding-left:620px ;
+  font-weight: bold;
+  padding-top: 20px;
+  font-family: Playfair Display SC;
+  }
+  #exploreindia_heading h7{
+      padding-left: 450px;
+     font-weight: 10;
+     font-size: medium;
+     font-family: Agbalumo;
+  }
+
+
+.galleryy{
+columns: 5;
+column-gap: 1px;
+}
+.gridd img{
+border-radius: 5px;
+object-fit: cover;
+width: 102%;
+max-width: 400px; 
+
+}
+.gridd{
+  display: inline-block;
+  margin:5px;
+  position: relative;
+}
+
+.gridd img:hover {
+  transform: scale(0.9); 
+  
+}

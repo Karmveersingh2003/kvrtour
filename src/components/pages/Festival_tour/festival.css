@@ -1,0 +1,25 @@
+#flex_mainheading_festival_tour{
+    display: flex;
+    margin: 20px;
+    }
+    #mainheading_festival_tour p{
+        font-family: Agbalumo;
+        font-size: large;
+        margin: 20px;
+    }
+    #mainheading_festival_tour h1{
+        font-family: Playfair Display SC;
+        font-weight: bolder;
+        margin: 20px;
+    }
+    #heading_popular_festival_destination h1{
+        font-family: Playfair Display SC;
+        font-weight: bolder;
+        margin: 20px;
+        margin-left:600px;
+    }
+    #festival_first_img img{
+        border-radius: 50px;
+        height: 350px;
+        width: 400px;
+    }

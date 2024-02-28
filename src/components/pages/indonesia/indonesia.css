@@ -1,0 +1,89 @@
+#welcome_to_indonesia{
+ padding-left: 600px;
+ 
+ padding-bottom: 20px;
+}
+#welcome_to_indonesia img{
+  padding-left: 50px;
+}
+#welcome_to_indonesia h3{
+  font-family: Agbalumo;
+  
+}
+#thailand_img img{
+  width:1700px;
+  height: 300px;
+  box-shadow: 0px 0px 15px -5px;
+  padding-top: 10px;
+  }
+  #description_of_thailand{
+    padding: 200px;
+    padding-top:40px;
+    padding-left: 150px;
+    /* font-weight: 12px; */
+    font-size: 16px;
+    color: #424242;
+    font-family: Playfair Display SC;
+  
+  }
+  #description_of_thailand p{
+    padding-top:10px; 
+    /* font-size: 30px;  */
+    font-family: Agbalumo;
+    /* box-shadow: 0px 7px 5px -5px; */
+  }
+ 
+  #best-selling{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #best-selling h3{
+    font-family: Playfair Display SC;
+
+  }
+  #best-selling{
+padding-top: 29px;
+  }
+  #imageThailand_Tour_Packages img{
+  height: 180px;
+  width:260px;
+  border-radius: 6px;
+  object-fit: cover;
+  position: relative;
+  
+  }
+  #TextimageThailand_Tour_Packages p{
+  display: inline-block;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 600;
+  padding-left: 25px;
+  }
+  #packageflex{
+    display: flex;
+    padding: 15px;
+    box-shadow: 0px 0px 15px -5px;
+    overflow: hidden;
+    
+  }
+  #TextimageThailand_Tour_Packages button{
+  border-radius: 5px;
+  
+  }
+  #viewdetails{
+    background-color: rgb(255, 136, 0);
+    padding: 5px;
+    line-height: 1.5rem;
+  }
+  #enquirenow{
+    color: orange;
+    padding: 5px;
+    line-height: 1.5rem;
+  }
+  #spacethailand_pack{
+  padding: 5px;
+  }
+  #TextimageThailand_Tour_Packages p a href {
+  color: #000;
+  }
+  

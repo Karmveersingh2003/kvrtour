@@ -1,0 +1,66 @@
+
+
+#tiger_about_flex{
+    display: flex;
+    margin: 20px;
+}
+#tiger_img img{
+    height: 85vh;
+    width: 50vh;
+    padding: 40px;
+}
+#tiger_about{
+    margin-right: 50px;
+}
+#tiger_about h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    margin-left: 110px;
+}
+#tiger_about p{
+    font-family: Agbalumo;
+font-size: large;
+padding-left: 20px;
+margin: 20px;
+
+}
+.wildlife_headings h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    padding-left: 600px;
+}
+#mainheading_Best_Time_to_Visit_India_National_Parks h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+   padding-left: 280px; 
+}
+#flex_Best_Time_to_Visit_India_National_Parks{
+    display: flex;
+    margin: 25px;
+}
+#heading_Best_Time_to_Visit_India_National_Parks{
+    font-family: Agbalumo;
+    font-size: large;
+    margin: 10px;
+}
+#paragraph_Best_Time_to_Visit_India_National_Parks p{
+    font-family: Agbalumo;
+    font-size: large;
+    margin: 70px;
+}
+#img_Best_Time_to_Visit_India_National_Parks img{
+    margin: 30px;
+}
+#mainheading_about_wildlife_tour h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    padding-left: 280px;
+    margin: 10px;
+}
+#paragraph_about_wildlife_tour p{
+    font-family: Agbalumo;
+    font-size: large;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

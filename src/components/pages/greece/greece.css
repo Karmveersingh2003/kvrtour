@@ -1,0 +1,87 @@
+#thailand img {
+  width: 1700px;
+  height: 300px;
+}
+
+#description_of_thailand {
+  padding: 200px;
+  padding-top: 40px;
+  padding-left: 150px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #424242;
+
+}
+
+#description_of_thailand p {
+  padding-top: 10px;
+  font-size: 19px;
+}
+
+#best-selling {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#imageThailand_Tour_Packages img {
+  height: 180px;
+  width: 260px;
+  border-radius: 6px;
+  object-fit: cover;
+  position: relative;
+
+}
+
+#TextimageThailand_Tour_Packages p {
+  display: inline-block;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+#packageflex {
+  display: flex;
+  padding: 15px;
+  box-shadow: 0px 0px 15px -5px;
+  overflow: hidden;
+
+}
+
+#TextimageThailand_Tour_Packages button {
+  border-radius: 5px;
+
+}
+
+#viewdetails {
+  background-color: rgb(255, 136, 0);
+  padding: 5px;
+  line-height: 1.5rem;
+}
+
+#enquirenow {
+  color: orange;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+
+#spacethailand_pack {
+  padding: 5px;
+}
+
+#TextimageThailand_Tour_Packages p a href {
+  color: #000;
+}
+
+#view_enquire_button {
+  padding-left: 700px;
+}
+
+#view_enquire_button button {
+  margin: 5px;
+}
+#must{
+text-decoration: none;
+}

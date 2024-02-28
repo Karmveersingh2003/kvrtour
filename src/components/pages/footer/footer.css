@@ -1,0 +1,77 @@
+#footerIcon img{
+    height: 210px;
+    width: 243px;
+    padding: 25px;
+    padding-left: 50px;
+}
+#footerIcon{
+   
+    padding: 30px;
+    box-shadow: 0px 0px 26px -15px;
+}
+#footerLinks{
+    display: flex;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/travel-travel-border-powerpoint-background_cca29ab1ff__960_540.jpg");
+    
+    /* https://img.freepik.com/premium-vector/travel-leisure-decorated-banner-vector_53876-172573.jpg */
+
+}
+.footernav{
+    padding: 50px;
+}
+.footerdetails{
+display: flex;
+padding: 5px;
+gap: 10px;
+font-weight:500px;
+font-size: 20px ;
+height: 50px;
+color: rgb(0, 0, 0);
+
+}
+#shopnow{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: Ruslan Display;
+}
+.footerdetails h5 a{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.footerdetails h5 {
+    font-family:Agbalumo;
+}
+
+.footernav img{
+    height: 210px;
+    width: 243px;
+    padding: 25px;
+    padding-left: 50px;
+}
+.footernav h3{
+    font-family:Ruslan Display;
+}
+
+#visaicon img {
+    height: 100px;
+    padding-left: 5px;
+}
+#payout img{
+    height: 90px;
+    width: 150px;
+    
+    padding-bottom: 40px;
+}
+.footernav h5{
+    font-weight: bolder;
+}
+#patternfooter img{
+width: 100%;
+height: 5.6rem;
+object-fit: cover;
+position: relative;
+}

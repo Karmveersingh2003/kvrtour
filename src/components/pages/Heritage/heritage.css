@@ -1,0 +1,63 @@
+#flex_mainheading_heritage_tour{
+display: flex;
+margin: 20px;
+}
+#mainheading_heritage_tour p{
+    font-family: Agbalumo;
+    font-size: large;
+    margin: 20px;
+}
+#mainheading_heritage_tour h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    margin: 20px;
+}
+#heading_best_heritage_sightseeing h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    margin: 20px;
+    margin-left:200px;
+}
+
+
+
+
+
+#margin_flipcard{
+    margin: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+.heritagecard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 480px;
+    margin: auto;
+    text-align: center;
+  }
+  .heritagecard h1{
+    margin: 10px;
+  }
+  .heritagecard p{
+    color: grey;
+    font-size: 18px;
+    margin: 20px;
+  }
+  .heritagecard img{
+height:200px;
+  width: 350px;
+margin: 10px;}
+
+#mainheading_about_heritage_tour h1{
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    padding-left: 320px;
+    margin: 20px;
+}
+#paragraph_about_heritage_tour p{
+    font-family: Agbalumo;
+    font-size: large;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
