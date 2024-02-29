@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../footer/Footer'
+
 import waterpark from '../adventures/waterpark.mp4'
 import "./adventures.css"
 const Adventures = () => {
@@ -191,7 +191,7 @@ const Adventures = () => {
           </div>
         </div>
       </div>
-     <Footer/>
+    
      
     </>
   )

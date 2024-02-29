@@ -89,7 +89,7 @@ const Footer = () => {
 
                     <div className='footerdetails'>
 
-                        <h5 > <a href="/thailand_tour">thailand</a>
+                        <h5 > <a href="/thailand_tour">Thailand</a>
                         </h5>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const Footer = () => {
                     <div className='footerdetails'>
                         <BiMessageDots />
 
-                        <a href='http://localhost:3000/experinces_tours'><h5 >ABOUT US
+                        <a href='/experinces_tours'><h5 >ABOUT US
                         </h5></a>
                     </div>
 
