@@ -8,7 +8,7 @@ function Thailand() {
   return (
     <>
 
-      <div>
+      <div id='patternimg'>
         <img src={Pattern} ></img>
       </div>
       <div id='welcome_to_indonesia'>

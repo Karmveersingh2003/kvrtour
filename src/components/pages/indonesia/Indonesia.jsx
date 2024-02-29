@@ -6,7 +6,7 @@ import Pattern from '../indonesia/pattern.png'
 function Indonesia() {
   return (
     <>
-<div>
+<div id='patternimg'>
   <img src={Pattern} ></img>
 </div>
 <div id='welcome_to_indonesia'>

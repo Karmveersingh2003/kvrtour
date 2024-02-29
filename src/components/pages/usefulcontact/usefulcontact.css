@@ -1,0 +1,27 @@
+#usefull_flex{
+    display: flex;
+    margin: 100px;
+    box-shadow: 0px 0px 10px 2px;
+   
+}
+#contact_usefull{
+    background-color:rgb(125, 40, 125) ;
+    
+}
+#contact_usefull h3{
+    
+    color: #eeeeee;
+    margin: 100px;
+    margin-right: 355px;
+}
+#usefullcontact_img img{
+height: 600px;
+width: 500px;
+
+}
+#contact_usefull h1{
+    
+    color: #eeeeee;
+    margin: 100px;
+    margin-right: 355px;
+}

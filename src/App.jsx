@@ -21,8 +21,13 @@ import Ayurveda from './components/pages/Ayurveda_tour/Ayurveda';
 import Festival from './components/pages/Festival_tour/Festival';
 import Footer from './components/pages/footer/Footer';
 import Travel_saftey from './components/pages/travel_safety/Travel_saftey';
-
-
+import Bhutan from './components/pages/bhutan_tour/Bhutan';
+import Srilanka from './components/pages/srilanka/Srilanka';
+import Egypt from './components/pages/egypt/Egypt';
+import Itlay from './components/pages/itlay/Itlay';
+import Nepal from './components/pages/nepal/Nepal';
+import Veitnam from './components/pages/veitnam/Veitnam';
+import Usefulcontact from './components/pages/usefulcontact/Usefulcontact';
 
 
 function App() {
@@ -51,7 +56,13 @@ function App() {
           <Route path='/ayurveda_tour' element={<Ayurveda/>}></Route>
           <Route path='/festival_tour' element={<Festival/>}></Route>
           <Route path='/travel_saftey' element={<Travel_saftey/>}></Route>
-          
+          <Route path='/bhutan_tour' element={<Bhutan/>}></Route>
+          <Route path='/nepal_tour' element={<Nepal/>}></Route>
+          <Route path='/italy_tour' element={<Itlay/>}></Route>
+          <Route path='/srilanka_tour' element={<Srilanka/>}></Route>
+          <Route path='/egypt_tour' element={<Egypt/>}></Route>
+          <Route path='/veitnam_tour' element={<Veitnam/>}></Route>
+          <Route path='/usefulcontact' element={<Usefulcontact/>}></Route>
         </Routes>
         <Footer/>
       </Router>

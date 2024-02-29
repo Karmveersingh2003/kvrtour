@@ -69,7 +69,7 @@ Visit Haridwar & Rishikesh in Uttarakhand & to experience a variety of Ayurveda 
 
 <div class="heritagecard">
   <img src="https://www.tourmyindia.com/packages-tour-india/image/karnataka.webp" />
-  <h1>Kerela</h1> 
+  <h1>Kerala</h1> 
   <p>Get the benefits of Panchakarma Ayurveda treatments based on Ashtanga Hridaya text in places like Poovar, Kovalam & Palakkad.
    </p>
 

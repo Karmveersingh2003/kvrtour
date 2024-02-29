@@ -11,10 +11,10 @@
   padding-left: 25px;
  }
  #adventures_photos img {
-   height: 200px;
+   height: 300px;
    width: 660px;
    border-radius: 6px;
-   object-fit: cover;
+   object-fit: fill;
    position: relative;
  
  }

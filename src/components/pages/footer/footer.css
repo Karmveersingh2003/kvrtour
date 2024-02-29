@@ -45,6 +45,9 @@ color: rgb(0, 0, 0);
 .footerdetails h5 {
     font-family:Agbalumo;
 }
+.footerdetails a{
+   color: black;
+}
 
 .footernav img{
     height: 210px;

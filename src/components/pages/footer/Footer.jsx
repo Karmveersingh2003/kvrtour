@@ -60,14 +60,14 @@ const Footer = () => {
                 <div className='footernav'>
                     <h3 id='shopnow'>Destinations Packages</h3>
                     <div className='footerdetails'>
-                        <h5 > <a href="http://localhost:3001/product_cat/sweets">Bhutan</a>
+                        <h5 > <a href="http://localhost:3000/bhutan_tour">Bhutan</a>
 
 
                         </h5>
                     </div>
                     <div className='footerdetails'>
                         <h5 >
-                            <a href="http://localhost:3001/product_cat/namkeen">India </a>
+                            <a href="http://localhost:3000/india_tour">India </a>
                         </h5>
                     </div>
                     <div className='footerdetails'>
@@ -77,13 +77,13 @@ const Footer = () => {
                     </div>
                     <div className='footerdetails'>
 
-                        <h5 > <a href="http://localhost:3001/product_cat/sweets">Nepal</a>
+                        <h5 > <a href="http://localhost:3000/nepal_tour">Nepal</a>
                         </h5>
                     </div>
 
                     <div className='footerdetails'>
 
-                        <h5 > <a href="http://localhost:3000/product_cat/sweets">Sri Lanka</a>
+                        <h5 > <a href="http://localhost:3000/srilanka_tour">Sri Lanka</a>
                         </h5>
                     </div>
 
@@ -95,11 +95,7 @@ const Footer = () => {
                 </div>
                 <div className='footernav'>
                     <h3>USEFUL LINKS</h3>
-                    {/* <div className='footerdetails'>
-                        <h5 > <a href="http://localhost:3001/page_id/contact">Contact Us</a>
-                        </h5>
-                        </div> */}
-
+                   
 
                     <div className='footerdetails'>
                         <IoMdContacts />
@@ -111,23 +107,23 @@ const Footer = () => {
                     <div className='footerdetails'>
                         <BsLinkedin />
 
-                        <h5 >LINKED IN
-                        </h5>
+                       <a href='https://in.linkedin.com/in/karamveer-singh-222ba5250'> <h5 >LINKED IN
+                        </h5></a> 
                     </div>
 
                     <div className='footerdetails'>
                         <FaInstagram />
 
-                        <h5 >INSTAGRAM
-                        </h5>
+                        <a href='https://www.instagram.com/_karmveersing/'> <h5 >INSTAGRAM
+                        </h5></a>
                     </div>
 
 
                     <div className='footerdetails'>
                         <BiMessageDots />
 
-                        <h5 >ABOUT US
-                        </h5>
+                        <a href='http://localhost:3000/experinces_tours'><h5 >ABOUT US
+                        </h5></a>
                     </div>
 
 

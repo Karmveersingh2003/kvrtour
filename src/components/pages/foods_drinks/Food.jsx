@@ -1,16 +1,7 @@
 // import React, { useEffect, useState } from 'react'
-// import axios from 'axios';
+
 // import "./food.css"
 // const Food = () => {
-//   const [products, setproducts] = useState([])
-//   const getProductsHandler=async()=>{
-// let response= await axios.get("http://localhost:4000/food");
-// setproducts(response.data.products);
-//   }
-
-//   useEffect(() => {
-//     getProductsHandler();
-//   }, []);
 //   return(
 //     <>
     
@@ -31,50 +22,7 @@
 
 //    </div>
 
-
-
-//    {/* <div className='cont'>
-//     <div className='box'>
-//       <div className='imgBx'> 
-// <img src={products.image} />
-//       </div>
-// <div className='content'>
-// <h3>{products.name}</h3>
-// <p>{products.description}</p>
 // </div>
-//     </div>
-
-//    </div> */}
-
-
-   
-//    </div>
-
-
-
-//    {/* <div className='cont'>
-//         <div className='box'>
-//         {
-    
-        
-  
-//         <>
-//           <div className='imgBx'>
-//               <img src={products.image}></img> </div>
-//               <div className='content'>
-//                 <h3>{products.name}</h3>
-//                 <p>{products.description}</p>
-             
-//             </div>
-//             </>
-        
-      
-      
-    
-//   }
-  
-//   </div> 
-//   </div> */}
 //     </>
 //   )
 // }
