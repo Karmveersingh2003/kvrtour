@@ -13,7 +13,7 @@ const Header = () => {
         <div id='nav_headings'>
           <ol>
             <li>
-              <a href='http://localhost:3000'>
+              <a href='/'>
               <img src="https://img.freepik.com/premium-vector/monogram-kv-logo-design-creative-letter-logo-business-company_719418-653.jpg" />  </a> </li>
             <div className='navheadings_space'>
               <li>
@@ -38,12 +38,12 @@ const Header = () => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu id='plan_your_padding'>
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/indonesia_tour">Indonesia</Dropdown.Item>
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/Thailand_tour">Thailand</Dropdown.Item> 
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/Greece_tour">Greece</Dropdown.Item>
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/india_tour">India</Dropdown.Item>
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/Italy_tour">Italy</Dropdown.Item>
-                  <Dropdown.Item className='holiday_dropdown_text' href="http://localhost:3000/srilanka_tour">Sri Lanka</Dropdown.Item>
+                  <Dropdown.Item className='holiday_dropdown_text' href="/indonesia_tour">Indonesia</Dropdown.Item>
+                  <Dropdown.Item className='holiday_dropdown_text' href="/Thailand_tour">Thailand</Dropdown.Item> 
+                  <Dropdown.Item className='holiday_dropdown_text' href="/Greece_tour">Greece</Dropdown.Item>
+                  <Dropdown.Item className='holiday_dropdown_text' href="/india_tour">India</Dropdown.Item>
+                  <Dropdown.Item className='holiday_dropdown_text' href="/Italy_tour">Italy</Dropdown.Item>
+                  <Dropdown.Item className='holiday_dropdown_text' href="/srilanka_tour">Sri Lanka</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </li></div>

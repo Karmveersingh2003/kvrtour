@@ -60,36 +60,36 @@ const Footer = () => {
                 <div className='footernav'>
                     <h3 id='shopnow'>Destinations Packages</h3>
                     <div className='footerdetails'>
-                        <h5 > <a href="http://localhost:3000/bhutan_tour">Bhutan</a>
+                        <h5 > <a href="/bhutan_tour">Bhutan</a>
 
 
                         </h5>
                     </div>
                     <div className='footerdetails'>
                         <h5 >
-                            <a href="http://localhost:3000/india_tour">India </a>
+                            <a href="/india_tour">India </a>
                         </h5>
                     </div>
                     <div className='footerdetails'>
                         <h5 >
-                            <a href="http://localhost:3000/indonesia_tour">Indonesia</a>
+                            <a href="/indonesia_tour">Indonesia</a>
                         </h5>
                     </div>
                     <div className='footerdetails'>
 
-                        <h5 > <a href="http://localhost:3000/nepal_tour">Nepal</a>
-                        </h5>
-                    </div>
-
-                    <div className='footerdetails'>
-
-                        <h5 > <a href="http://localhost:3000/srilanka_tour">Sri Lanka</a>
+                        <h5 > <a href="/nepal_tour">Nepal</a>
                         </h5>
                     </div>
 
                     <div className='footerdetails'>
 
-                        <h5 > <a href="http://localhost:3000/thailand_tour">thailand</a>
+                        <h5 > <a href="/srilanka_tour">Sri Lanka</a>
+                        </h5>
+                    </div>
+
+                    <div className='footerdetails'>
+
+                        <h5 > <a href="/thailand_tour">thailand</a>
                         </h5>
                     </div>
                 </div>

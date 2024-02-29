@@ -47,6 +47,7 @@ color: rgb(0, 0, 0);
 }
 .footerdetails a{
    color: black;
+   text-decoration: none;
 }
 
 .footernav img{
