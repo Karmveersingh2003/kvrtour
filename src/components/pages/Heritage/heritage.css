@@ -1,4 +1,4 @@
-#flex_mainheading_heritage_tour{
+/* #flex_mainheading_heritage_tour{
 display: flex;
 margin: 20px;
 }
@@ -17,12 +17,66 @@ margin: 20px;
     font-weight: bolder;
     margin: 20px;
     margin-left:200px;
+} */
+
+
+
+
+#flex_mainheading_heritage_tour {
+  display: flex;
+  margin: 20px;
+  flex-direction: row; /* Display items vertically on mobile */
+}
+
+#mainheading_heritage_tour p {
+  font-family: Agbalumo;
+  font-size: medium; /* Adjust font size for better readability on mobile */
+  margin: 20px;
+}
+
+#mainheading_heritage_tour h1 {
+  font-family: Playfair Display SC;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+#heading_best_heritage_sightseeing h1 {
+  font-family: Playfair Display SC;
+  font-weight: bolder;
+  margin: 20px;
+  padding-left: 300px;
+
+  margin-left: 0; /* Reset margin-left */
+}
+
+/* Media query for screens smaller than 600px (typical mobile screens) */
+@media screen and (max-width: 600px) {#flex_mainheading_heritage_tour {
+  flex-direction: column; /* Display items vertically on mobile */
+}
+  #heading_best_heritage_sightseeing h1 {
+      margin-left: -150px; /* Adjust margin-left for better layout on mobile */
+  }
+}
+
+#heritage_taj_img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  #heritage_taj_img {
+    /* Adjust styles for mobile */
+    
+    width: 100%; /* Optionally set a specific width if needed */
+  }
 }
 
 
 
 
 
+/* 
 #margin_flipcard{
     margin: 30px;
     margin-left: 50px;
@@ -46,9 +100,42 @@ margin: 20px;
   .heritagecard img{
 height:200px;
   width: 350px;
-margin: 10px;}
+margin: 10px;} */
 
-#mainheading_about_heritage_tour h1{
+
+#margin_flipcard {
+  margin: 30px;
+  display: flex;
+  justify-content: center; /* Center the flex items */
+}
+
+.heritagecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Set maximum width */
+  width: 90%; /* Adjust width for smaller screens */
+  text-align: center;
+  margin: 20px; /* Adjust margin */
+}
+
+.heritagecard h1 {
+  margin: 10px;
+  font-size: 24px; /* Increase font size for better readability */
+}
+
+.heritagecard p {
+  color: grey;
+  font-size: 16px; /* Decrease font size for better readability */
+  margin: 20px;
+}
+
+.heritagecard img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+}
+
+
+/* #mainheading_about_heritage_tour h1{
     font-family: Playfair Display SC;
     font-weight: bolder;
     padding-left: 320px;
@@ -60,4 +147,33 @@ margin: 10px;}
     margin: 30px;
     margin-left: 100px;
     margin-right: 100px;
+} */
+
+
+/* Common styles */
+#mainheading_about_heritage_tour h1 {
+  font-family: Playfair Display SC;
+  font-weight: bolder;
+  padding-left: 320px;
+  margin: 20px;
+}
+
+#paragraph_about_heritage_tour p {
+  font-family: Agbalumo;
+  font-size: large;
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  #mainheading_about_heritage_tour h1 {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+
+  #paragraph_about_heritage_tour p {
+      margin-left: 20px; /* Adjust margins for smaller screens */
+      margin-right: 20px; /* Adjust margins for smaller screens */
+  }
 }

@@ -47,7 +47,7 @@ function Wildlife() {
 
         <div id="img_discover_world1" ><img src="https://c4.wallpaperflare.com/wallpaper/49/163/656/animals-rhino-savannah-desert-wallpaper-preview.jpg" /><div class="middle">
           <div class="text"> The One Horned Rhino</div></div></div>
-        <div id="img_discover_world1" ><img src="https://lh3.googleusercontent.com/ci/AE9Axz_7JmOw1WYrbzptARDYYIjfkcA2oDuHwpu3uBSoxIUYm26gYyRpg-zxHO0HHqkrxJfU4dBHtUg=s1200" /><div class="middle">
+        <div id="img_discover_world1" ><img src="https://w0.peakpx.com/wallpaper/32/125/HD-wallpaper-aboriginal-forest-fighting-color-wildlife-tribal-people.jpg" /><div class="middle">
           <div class="text"> The Tribes And Wildlife</div></div></div>
         <div id="img_discover_world1" ><img src="https://w0.peakpx.com/wallpaper/375/192/HD-wallpaper-fox-foxes-animals.jpg" /><div class="middle">
           <div class="text"> Fox Wildlife Tour</div></div></div>

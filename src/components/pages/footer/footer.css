@@ -1,4 +1,4 @@
-#footerIcon img{
+/* #footerIcon img{
     height: 210px;
     width: 243px;
     padding: 25px;
@@ -8,20 +8,62 @@
    
     padding: 30px;
     box-shadow: 0px 0px 26px -15px;
+} */
+#footerIcon img {
+    height: 210px;
+    width: 100%;
+    max-width: 243px; /* Set a maximum width */
+    padding: 10px; /* Adjust padding to your preference */
 }
+
+#footerIcon {
+    padding: 15px; /* Adjust padding to your preference */
+    box-shadow: 0px 0px 26px -15px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    #footerIcon img {
+        height: auto;
+        max-width: 150px; /* Adjust maximum width for smaller screens */
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    #footerIcon {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+/* 
 #footerLinks{
     display: flex;
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://image.slidesdocs.com/responsive-images/background/travel-travel-border-powerpoint-background_cca29ab1ff__960_540.jpg");
-    
-    /* https://img.freepik.com/premium-vector/travel-leisure-decorated-banner-vector_53876-172573.jpg */
-
 }
 .footernav{
     padding: 50px;
+} */
+
+#footerLinks{
+    display: flex;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/travel-travel-border-powerpoint-background_cca29ab1ff__960_540.jpg");
 }
+
+.footernav{
+    padding: 20px; /* Reduce padding for mobile */
+}
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    #footerLinks {
+        flex-direction: column; /* Stack items vertically on mobile */
+    }
+}
+/* 
 .footerdetails{
 display: flex;
 padding: 5px;
@@ -48,8 +90,53 @@ color: rgb(0, 0, 0);
 .footerdetails a{
    color: black;
    text-decoration: none;
+} */
+
+
+
+.footerdetails {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    color: rgb(0, 0, 0);
 }
 
+#shopnow {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-family: Ruslan Display;
+}
+
+.footerdetails h5 a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footerdetails h5 {
+    font-family: Agbalumo;
+}
+
+.footerdetails a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .footerdetails {
+        font-size: 14px;
+    }
+    #shopnow {
+        font-size: 20px;
+    }
+}
+
+
+
+/* 
 .footernav img{
     height: 210px;
     width: 243px;
@@ -63,7 +150,42 @@ color: rgb(0, 0, 0);
 #visaicon img {
     height: 100px;
     padding-left: 5px;
+} */
+
+
+/* Default styling */
+.footernav img {
+    height: 210px;
+    width: 243px;
+    padding: 25px;
+    padding-left: 50px;
 }
+.footernav h3 {
+    font-family: Ruslan Display;
+}
+
+#visaicon img {
+    height: 100px;
+    padding-left: 5px;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .footernav img {
+        height: auto; /* Allow the height to adjust according to the width */
+        width: 100%; /* Make the image take full width of the container */
+        padding: 10px; /* Adjust padding for smaller screens */
+        padding-left: 25px; /* Adjust left padding for smaller screens */
+    }
+
+    #visaicon img {
+        height: 60px; /* Adjust height for smaller screens */
+        padding-left: 0; /* Remove left padding for smaller screens */
+    }
+}
+
+
+/* 
 #payout img{
     height: 90px;
     width: 150px;
@@ -72,10 +194,49 @@ color: rgb(0, 0, 0);
 }
 .footernav h5{
     font-weight: bolder;
+} */
+
+
+
+
+#payout img {
+    height: 90px;
+    width: 150px;
+    padding-bottom: 20px; /* Adjust padding for better spacing */
 }
+
+.footernav h5 {
+    font-weight: bolder;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    #payout img {
+        height: 60px; /* Decrease image height for smaller screens */
+        width: auto; /* Let the width adjust automatically */
+        padding-bottom: 10px; /* Adjust padding for better spacing */
+    }
+}
+/* 
 #patternfooter img{
 width: 100%;
 height: 5.6rem;
 object-fit: cover;
 position: relative;
+} */
+
+
+
+#patternfooter img {
+    width: 100%;
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    object-fit: cover;
+    position: relative;
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+    #patternfooter img {
+        height: 3.6rem; /* Adjust height for mobile devices */
+    }
 }

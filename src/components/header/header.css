@@ -1,64 +1,6 @@
-/* .header {
- 
- padding: .5rem 0;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(81, 81, 81);  
-}
-
-.headerLeft {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  
-}
-.nav_iconlink h1{
-  margin: 0 30px;
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: white;
-}
-.nav_iconlink h1:hover{
-  color: red;
-}
-.header_icon {
-  width: 80px;
-  cursor: pointer;
-  margin-left: 15rem;
-}
-#contact{
-padding-left: 150px;
-} */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#nav_headings{
+/* #nav_headings{
  background-image: url(https://4kwallpapers.com/images/wallpapers/baros-maldives-island-seascape-tropical-beach-blue-sky-3440x1440-4325.jpg);
  height:500px;
  width: 100%;
@@ -66,7 +8,29 @@ padding-left: 150px;
 background-size: cover;
 opacity:0.9;
 
+}  */
+
+
+#nav_headings {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/baros-maldives-island-seascape-tropical-beach-blue-sky-3440x1440-4325.jpg);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for mobile devices */
+  #nav_headings {
+    height: 300px; /* Adjust height for mobile devices */
+  }
+}
+
+
+
+/* 
+
 #nav_headings ol{
 display: flex;
 list-style-type: none;
@@ -91,8 +55,49 @@ font-family: Playfair Display SC;
   color: whitesmoke;
   font-size: 20px;
  
+} */
+
+#nav_headings ol {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding-top: 30px;
+  padding-left: 30px; /* Adjusted for mobile */
+  font-weight: bold;
+  font-size: medium;
+  font-family: Playfair Display SC;
+  flex-wrap: wrap; /* Ensures items wrap to the next line on smaller screens */
 }
 
+#nav_headings img {
+  height: 70px; /* Adjusted for mobile */
+  width: 70px; /* Adjusted for mobile */
+  padding-top: 0px;
+}
+
+.navheadings_space {
+  padding-top: 10px; /* Adjusted for mobile */
+  font-family: 'Playpen Sans', cursive;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-size: 16px; /* Adjusted for mobile */
+}
+
+/* Media Query for screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  #nav_headings ol {
+    padding-left: 0; /* Reset left padding */
+    justify-content: center; /* Center items */
+  }
+
+  #nav_headings img {
+    height: 50px; /* Adjusted for smaller screens */
+    width: 50px; /* Adjusted for smaller screens */
+  }
+}
+
+
+/* 
 #see_do_padding{
 padding: 90px;
 margin: 10px;
@@ -119,74 +124,48 @@ color: white;
   #dropdown-basic{
     background-color:transparent;
 
-  }
+  } */ 
 
 
-
-
-
-
-
-
-  /* NEW */
-  #nav_headings {
-    background-image: url(https://4kwallpapers.com/images/wallpapers/baros-maldives-island-seascape-tropical-beach-blue-sky-3440x1440-4325.jpg);
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
+  #see_do_padding {
+    padding: 90px;
+    margin: 10px;
+    background-color: rgb(173, 3, 51);
 }
 
-#nav_headings ol {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    padding-top: 50px;
-    padding-left: 250px;
-    font-weight: bold;
-    font-size: medium;
-    font-family: Playfair Display SC;
+.holiday_dropdown_text {
+    color: white;
 }
 
-#nav_headings img {
-    height: 90px;
-    width: 90px;
-    padding-top: 0px;
+#holiday_types_padding {
+    padding: 90px;
+    margin: 10px;
+    background-color: rgb(76, 26, 82);
 }
 
-.navheadings_space {
-    padding-top: 20px;
-    font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
-    color: whitesmoke;
-    font-size: 20px;
+#plan_your_padding {
+    padding: 90px;
+    margin: 10px;
+    background-color: rgb(28, 115, 115); 
 }
 
-/* Media Query for Tablet Screens */
+#travel_essentials_padding {
+    padding: 90px;
+    margin: 10px;
+    background-color: rgb(40, 132, 87); 
+}
+
+#dropdown-basic {
+    background-color: transparent;
+}
+
+/* Responsive CSS */
 @media (max-width: 768px) {
-    #nav_headings ol {
-        padding-left: 20px;
+    #see_do_padding,
+    #holiday_types_padding,
+    #plan_your_padding,
+    #travel_essentials_padding {
+        padding: 50px;
+        margin: 5px;
     }
 }
-
-/* Media Query for Mobile Screens */
-@media (max-width: 480px) {
-    #nav_headings {
-        height: 300px; /* Adjust height for smaller screens */
-    }
-    #nav_headings ol {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-    #nav_headings img {
-        height: 60px;
-        width: 60px;
-    }
-    .navheadings_space {
-        font-size: 16px;
-    }
-}
-
-  

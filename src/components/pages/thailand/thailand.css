@@ -1,11 +1,43 @@
-#patternimg img{
+/* #patternimg img{
 width: 1518px;
 }
-#thailand img {
+ */
+ /* #thailand img {
   width: 1518px;
   height: 300px;
+} */
+
+/* For PCs */
+#patternimg img {
+  max-width: 100%;
+  height: auto;
 }
 
+
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+  #patternimg img {
+    width: 100%;
+    height: auto;
+  }
+}
+#thailand img {
+  width: 100%; /* Set the image width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+  #thailand img {
+    /* Adjust the width and height for mobile devices */
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* 
 #description_of_thailand {
   padding: 200px;
   padding-top: 40px;
@@ -19,8 +51,34 @@ width: 1518px;
 #description_of_thailand p {
   padding-top: 10px;
   font-size: 19px;
+} */
+
+
+
+#description_of_thailand {
+  padding: 40px; /* Adjust padding for all sides */
+  font-weight: 600;
+  font-size: 16px;
+  color: #424242;
 }
 
+#description_of_thailand p {
+  font-size: 16px; /* Keep the font size consistent */
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  #description_of_thailand {
+    padding: 20px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  #description_of_thailand p {
+    font-size: 14px; /* Keep the font size consistent */
+  }
+}
+
+/* 
 #best-selling {
   font-weight: bold;
   font-size: 25px;
@@ -51,7 +109,52 @@ width: 1518px;
   box-shadow: 0px 0px 15px -5px;
   overflow: hidden;
 
+} */
+
+
+#best-selling {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#imageThailand_Tour_Packages img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 6px;
+  object-fit: cover;
+  position: relative;
+}
+
+#TextimageThailand_Tour_Packages p {
+  display: inline-block;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+#packageflex {
+  display: flex;
+  padding: 15px;
+  box-shadow: 0px 0px 15px -5px;
+  overflow: hidden;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  #packageflex {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  #TextimageThailand_Tour_Packages p {
+    padding-left: 0; /* Remove left padding on small screens */
+    margin-top: 10px; /* Add space between image and text on small screens */
+  }
+}
+
+
+/* 
 
 #TextimageThailand_Tour_Packages button {
   border-radius: 5px;
@@ -84,4 +187,45 @@ width: 1518px;
 
 #view_enquire_button button {
   margin: 5px;
+} */
+
+#TextimageThailand_Tour_Packages button {
+  border-radius: 5px;
+}
+
+#viewdetails {
+  background-color: rgb(255, 136, 0);
+  padding: 5px;
+  line-height: 1.5rem;
+}
+
+#enquirenow {
+  color: orange;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+
+#spacethailand_pack {
+  padding: 5px;
+}
+
+#TextimageThailand_Tour_Packages p a {
+  color: #000;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  #view_enquire_button {
+    padding-left: 20px; /* Adjust according to your design */
+  }
+}
+
+/* Adjustments for PCs */
+@media (min-width: 769px) {
+  #view_enquire_button {
+    padding-left: 700px; /* Adjust according to your design */
+  }
+  #view_enquire_button button {
+    margin: 5px;
+  }
 }

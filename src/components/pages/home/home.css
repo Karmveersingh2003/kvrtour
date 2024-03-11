@@ -1,4 +1,4 @@
-#shadowDiscoverworld_heading{
+/* #shadowDiscoverworld_heading{
 box-shadow: 0px 0px 10px -7px;
 }
 #Discoverworld_heading {
@@ -17,7 +17,62 @@ font-family: Playfair Display SC;
    font-weight: 10;
    font-size: medium;
    font-family: Agbalumo;
+} */
+
+
+
+#shadowDiscoverworld_heading {
+    box-shadow: 0px 0px 10px -7px;
 }
+
+#Discoverworld_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Discoverworld_heading h2 {
+    padding: 20px;
+    font-weight: bold;
+    font-family: Playfair Display SC;
+}
+
+#Discoverworld_heading h7 {
+    padding: 10px;
+    font-weight: 10;
+    font-size: medium;
+    font-family: Agbalumo;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    #Discoverworld_heading h2 {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    #Discoverworld_heading h7 {
+        padding: 5px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #Discoverworld_heading h2 {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    #Discoverworld_heading h7 {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* 
+
 #img_discover_world {
 display: flex;
 flex-wrap: wrap;
@@ -32,11 +87,60 @@ height: 210.5px;
 width: 320px;
 padding: 15px;
 border-radius: 25px;
+} */
+
+
+#img_discover_world {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
 }
-#img_discover_world img:hover {
+
+#img_discover_world img {
+    height: 210.5px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* Media Query for tablets */
+@media only screen and (max-width: 768px) {
+    #img_discover_world img {
+        height: 150px;
+        width: 240px;
+    }
+}
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 480px) {
+    #img_discover_world img {
+        height: 100px;
+        width: 160px;
+    }
+}
+
+
+
+/* #img_discover_world img:hover {
     transform: scale(1.1); 
     
-  }
+  } */
+
+
+
+  #img_discover_world img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+    #img_discover_world img:hover {
+        transform: scale(1); /* Reset scale on smaller screens */
+    }
+}
+/* 
 #Our_Most_Popular_Destinations{
     display: flex;
     margin: 20px;
@@ -54,7 +158,48 @@ border-radius: 25px;
 }
 #imgPopular_Destination{
 padding-left: 100px;
+} */
+
+
+#Our_Most_Popular_Destinations {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap; /* Allow items to wrap to next line */
 }
+
+#textPopular_Destination {
+    font-weight: bolder;
+    padding: 20px;
+    margin: 20px;
+    font-family: Agbalumo;
+    flex: 1; /* Let text container grow to take remaining space */
+    max-width: 100%; /* Ensure text doesn't overflow */
+}
+
+#imgPopular_Destination img {
+    max-width: 100%; /* Ensure images resize with the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#imgPopular_Destination {
+    flex: 1; /* Let image container grow to take remaining space */
+    padding-left: 20px; /* Adjust padding for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #Our_Most_Popular_Destinations {
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    #imgPopular_Destination {
+        padding-left: 0; /* Reset padding */
+    }
+}
+
+
+
+/* 
 #placespopular{
     display: flex;
     gap: 80px;
@@ -85,7 +230,72 @@ padding-left: 100px;
 #monthsflex a{
 text-decoration: none;
 color: black;
+} */
+
+
+#placespopular {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
 }
+
+.listnone {
+    list-style-type: none;
+}
+
+#where_to_go {
+    margin: 20px;
+    text-align: center; /* Center text */
+    font-family: Playfair Display SC;
+}
+
+#swiper_where_to_go {
+    margin: 20px;
+    text-align: center; /* Center text */
+    padding: 0 20px; /* Add padding to sides */
+}
+
+.month_name {
+    font-family: Azeret Mono;
+}
+
+.month_name:hover {
+    text-decoration: underline;
+    color: rgb(234, 0, 0);
+}
+
+#monthsflex a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    #placespopular {
+        gap: 40px;
+    }
+
+    #where_to_go,
+    #swiper_where_to_go {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #where_to_go,
+    #swiper_where_to_go {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+/* 
 #homevedio video{
     height:100%;
     width: 100%;
@@ -111,16 +321,80 @@ width: 100%;
     -ms-transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-  }
+  } */
+
+
+
+  /* Default styles */
+#homevedio video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Agbalumo;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .text {
+        font-size: 16px; /* Further adjust font size for even smaller screens */
+    }
+}
+
+
+/* 
   #img_discover_world1{
      position: relative;
     }
     
     #img_discover_world1:hover .middle{
     opacity: 1;
-    }
+    } */
     
-    #img_discover_world1 img:hover {
+    /* #img_discover_world1 img:hover {
         opacity: 0.3;
       }
-    
+     */
+
+     #img_discover_world1 {
+        position: relative;
+      }
+      
+      #img_discover_world1:hover .middle {
+        opacity: 1;
+      }
+      
+      #img_discover_world1 img:hover {
+        opacity: 0.3;
+      }
+      
+      /* Responsive Styles */
+      @media screen and (max-width: 768px) {
+        /* Adjust styles for smaller screens */
+        #img_discover_world1 img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      

@@ -1,4 +1,4 @@
-#usefull_flex{
+/* #usefull_flex{
     display: flex;
     margin: 100px;
     box-shadow: 0px 0px 10px 2px;
@@ -24,4 +24,47 @@ width: 500px;
     color: #eeeeee;
     margin: 100px;
     margin-right: 355px;
+} */
+
+
+
+#usefull_flex {
+    display: flex;
+    margin: 50px;
+    box-shadow: 0px 0px 10px 2px;
+}
+
+#contact_usefull {
+    background-color: rgb(125, 40, 125);
+}
+
+#contact_usefull h3,
+#contact_usefull h1 {
+    color: #eeeeee;
+    margin: 20px;
+}
+
+#contact_usefull h3 {
+    margin-right: 20px;
+}
+
+#usefullcontact_img img {
+    height: auto;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #usefull_flex {
+        flex-direction: column;
+    }
+
+    #contact_usefull h3,
+    #contact_usefull h1 {
+        margin: 10px;
+    }
+
+    #usefullcontact_img img {
+        width: 100%;
+        height: auto;
+    }
 }

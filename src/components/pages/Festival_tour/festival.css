@@ -23,3 +23,16 @@
         height: 350px;
         width: 400px;
     }
+    
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    #heading_popular_festival_destination h1 {
+        margin-left: 20px; /* Adjust as needed for smaller screens */
+    }
+
+    #festival_first_img img {
+        height: auto; /* Allow image height to adjust based on width */
+        width: 100%; /* Make image fill container width */
+        max-width: 400px; /* Limit maximum width for larger screens */
+    }
+}

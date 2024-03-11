@@ -1,4 +1,4 @@
-#welcome_to_indonesia{
+/* #welcome_to_indonesia{
  padding-left: 600px;
  
  padding-bottom: 20px;
@@ -9,7 +9,41 @@
 #welcome_to_indonesia h3{
   font-family: Agbalumo;
   
+} */
+
+#welcome_to_indonesia {
+  padding-left: 5%; /* Adjust according to your design */
+  padding-right: 5%; /* Adjust according to your design */
+  padding-bottom: 20px;
+  text-align: center; /* Center align content */
 }
+
+#welcome_to_indonesia img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+#welcome_to_indonesia h3 {
+  font-family: Agbalumo;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  #welcome_to_indonesia {
+    padding-left: 2%; /* Adjust as needed for smaller screens */
+    padding-right: 2%; /* Adjust as needed for smaller screens */
+  }
+  
+  #welcome_to_indonesia img {
+    padding-left: 0; /* Reset padding for images */
+  }
+  
+  #welcome_to_indonesia h3 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+/* 
 #thailand_img img{
   width:1518px;
   height: 300px;
@@ -20,7 +54,6 @@
     padding: 200px;
     padding-top:40px;
     padding-left: 150px;
-    /* font-weight: 12px; */
     font-size: 16px;
     color: #424242;
     font-family: Playfair Display SC;
@@ -28,12 +61,50 @@
   }
   #description_of_thailand p{
     padding-top:10px; 
-    /* font-size: 30px;  */
     font-family: Agbalumo;
-    /* box-shadow: 0px 7px 5px -5px; */
+  } */
+  #thailand_img img {
+    width: 100%; /* Set the width to 100% so it adjusts according to the container */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0px 0px 15px -5px;
+    padding-top: 10px;
   }
- 
-  #best-selling{
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 600px) {
+    #thailand_img img {
+      /* Adjust properties for smaller screens */
+      padding-top: 5px; /* Example: reducing padding for smaller screens */
+    }
+  }
+  
+  #description_of_thailand {
+    padding: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #424242;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#description_of_thailand p {
+    padding-top: 10px;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 607px) {
+    #description_of_thailand {
+        padding: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+  /* #best-selling{
     font-weight: bold;
     font-size: 25px;
   }
@@ -43,7 +114,26 @@
   }
   #best-selling{
 padding-top: 29px;
+  } */
+
+  #best-selling {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 29px;
   }
+  
+  #best-selling h3 {
+    font-family: Playfair Display SC;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 768px) {
+    #best-selling {
+      font-size: 20px; /* Adjust font size for mobile */
+      padding-top: 20px; /* Adjust padding for mobile */
+    }
+  }
+/*   
   #imageThailand_Tour_Packages img{
   height: 180px;
   width:260px;
@@ -51,15 +141,51 @@ padding-top: 29px;
   object-fit: cover;
   position: relative;
   
+  } */
+  #imageThailand_Tour_Packages img {
+    height: 180px;
+    width: 260px;
+    border-radius: 6px;
+    object-fit: cover;
+    position: relative;
   }
+  
+  /* Responsive adjustments */
+  @media only screen and (max-width: 768px) {
+    #imageThailand_Tour_Packages img {
+      height: auto; /* Let the height adjust automatically */
+      width: 100%; /* Ensure the image takes full width of the container */
+      border-radius: 6px;
+      object-fit: cover;
+      position: relative;
+    }
+  }
+/*   
   #TextimageThailand_Tour_Packages p{
   display: inline-block;
   font-size: 16px;
   color: #424242;
   font-weight: 600;
   padding-left: 25px;
+  } */
+
+  #TextimageThailand_Tour_Packages p {
+    display: inline-block;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 600;
+    padding-left: 25px;
   }
-  #packageflex{
+  
+  /* Responsive adjustments for mobile devices */
+  @media only screen and (max-width: 768px) {
+    #TextimageThailand_Tour_Packages p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      padding-left: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  /* #packageflex{
     display: flex;
     padding: 15px;
     box-shadow: 0px 0px 15px -5px;
@@ -85,5 +211,17 @@ padding-top: 29px;
   }
   #TextimageThailand_Tour_Packages p a href {
   color: #000;
-  }
-  
+  } */
+
+
+  #patternimg img {
+    width:auto;
+    height: auto; /* Changed to auto to maintain aspect ratio */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    #patternimg img {
+        height: 100%; /* Set height to 100% on smaller screens */
+    }
+}

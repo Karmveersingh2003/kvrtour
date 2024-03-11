@@ -9,7 +9,7 @@ export default function Heritage() {
           <p>With a rich and diverse history and culture, India is a perfect destination for heritage tours. There are a plethora of heritage sites in India including one of the seven wonders of the world, Taj Mahal that people come to witness from all over the world. With our best heritage tour packages, explore the top historical heritage sites and cultural heritage in India to learn more about the country. We offer the best of our services in the heritage tours by arranging expert tour guides, transportation, and accommodations and ensuring a memorable experience.
           </p>
         </div>
-        <div>
+        <div id='heritage_taj_img'>
           <img src="https://www.tourmyindia.com/packages-tour-india/image/heritage-banner.webp" />
         </div>
       </div>

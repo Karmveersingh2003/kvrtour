@@ -1,4 +1,4 @@
-#travel_img_flex{
+/* #travel_img_flex{
     display: flex;
 }
 #travel_img_flex img{
@@ -18,4 +18,47 @@
 #heading_travel_tip p,h6{
     font-family: Agbalumo;
     margin: 2px;
+} */
+
+
+
+
+#travel_img_flex {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    flex-wrap: wrap; /* Allows images to wrap to the next line on smaller screens */
+}
+
+#travel_img_flex img {
+    margin: 10px; /* Adjust margin for smaller screens */
+    width: 100%; /* Make images fill the container width */
+    max-width: 300px; /* Limit the maximum width of images */
+}
+
+#heading_travel_tip h1 {
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    margin: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.travel_tips_flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    justify-content: center; /* Center content horizontally */
+    margin: 30px;
+}
+
+#heading_travel_tip p,
+#heading_travel_tip h6 {
+    font-family: Agbalumo;
+    margin: 2px;
+    text-align: center; /* Center text */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    #travel_img_flex img {
+        margin-top: 10px; /* Adjust margin-top for smaller screens */
+    }
 }

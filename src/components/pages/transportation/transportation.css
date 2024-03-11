@@ -1,4 +1,4 @@
-#heading_luxurytrain h1{
+/* #heading_luxurytrain h1{
     font-family: Playfair Display SC;
     font-weight: bolder;
     padding-left: 430px;
@@ -6,8 +6,28 @@
 }
 #heading_luxurytrain img{
 height: 498px;
+} */
+
+#heading_luxurytrain h1 {
+  font-family: Playfair Display SC;
+  font-weight: bolder;
+  padding-left: 30%; /* Adjust padding for smaller screens */
+  margin: 20px;
 }
-.train_content {
+
+#heading_luxurytrain img {
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for screens smaller than 768px (typical tablet size) */
+@media screen and (max-width: 768px) {
+  #heading_luxurytrain h1 {
+      padding-left: 5%; /* Adjust padding for smaller screens */
+  }
+}
+
+/* .train_content {
     height: 100vh;
   }
   
@@ -20,10 +40,64 @@ height: 498px;
     color: white;
     border-radius: 20px;
     font-size: 50px;
-  }
-  #heading_airlines h1{
+  } */
+
+
+
+
+
+  .train_content {
+    height: 100vh;
+}
+
+.train_text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .train_text-content {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+  /* #heading_airlines h1{
     font-family: Playfair Display SC;
     font-weight: bolder;
     padding-left: 590px;
     margin: 20px;
-  }
+  } */
+
+
+
+  #heading_airlines h1 {
+    font-family: Playfair Display SC;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+/* Media Query for PC */
+@media (min-width: 768px) {
+    #heading_airlines h1 {
+        padding-left: 590px;
+    }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    #heading_airlines h1 {
+        padding-left: 20px; /* Adjust padding for mobile */
+    }
+}
